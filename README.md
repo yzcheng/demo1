@@ -2,6 +2,15 @@
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.28.3.
 
+## History
+2017/02/15
+  1. the project is leverage `ng new ${project-name}` to init.
+  2. add `@angular/material`、`hammerjs` to dependencies
+
+2017/02/16
+  1. add customize element into angular scope, need add `allowJs@tsconfig.json` and `schemas:[CUSTOM_ELEMENTS_SCHEMA]@app.module.ts` for import tsmc-grid.js
+  2. add `ag-grid` to dependency and import from tsmc-grid.js
+
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
