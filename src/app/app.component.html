@@ -1,3 +1,18 @@
 <h1>
   {{title}}
 </h1>
+<md-input-container>
+  <input md-input placeholder="Chart No" value="1">
+</md-input-container>
+<button md-button>Query</button>
+<md-tab-group>
+  <md-tab label="Raw Data">
+    <div style="height:300px;">
+      <tsmc-grid id="myGrid" class="ag-blue"></tsmc-grid>
+    </div>
+  </md-tab>
+  <md-tab label="Trend">
+    <div style="height:300px;">
+    </div>
+  </md-tab>
+</md-tab-group>
